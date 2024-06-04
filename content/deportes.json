@@ -1,0 +1,24 @@
+{
+    "deportes": [
+        {
+            "nombre": "Tenis",
+            "precio": 33000
+        },
+        {
+            "nombre": "Waterpolo",
+            "precio": 25000
+        },
+        {
+            "nombre": "Tenis de mesa",
+            "precio": 18000
+        },
+        {
+            "nombre": "Rugby",
+            "precio": 22000
+        },
+        {
+            "nombre": "Boxeo",
+            "precio": 35001
+        }
+    ]
+}
