@@ -1,14 +1,11 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs").promises;
-const cors = require("cors");
 
 let rutaArchivo = path.resolve(__dirname, "./content/deportes.json")
 
 const app = express();
 const PORT = 3000;
-
-app.use(cors());
 
 app.listen(PORT, () => {
     console.log("Servidor en http://localhost:" + PORT)
